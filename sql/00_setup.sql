@@ -136,11 +136,10 @@ CREATE TABLE product_category_translation (
 
 -- =====================================================================
 -- Load data from CSVs
--- IMPORTANT: Update the file paths below to match where you put the CSVs!
--- Use ABSOLUTE paths (e.g., /Users/mubina/Documents/.../data/raw/file.csv)
+
 -- =====================================================================
 
--- TIP: To find the absolute path on Mac, in Terminal cd into your data/raw folder and run: pwd
+
 
 \copy customers FROM '/Users/mubinamirzaeva/Desktop/ecommerce-customer-analytics/data/raw/olist_customers_dataset.csv' DELIMITER ',' CSV HEADER;
 \copy sellers FROM '/Users/mubinamirzaeva/Desktop/ecommerce-customer-analytics/data/raw/olist_sellers_dataset.csv' DELIMITER ',' CSV HEADER;

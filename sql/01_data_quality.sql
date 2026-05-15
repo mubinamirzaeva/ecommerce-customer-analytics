@@ -5,7 +5,7 @@
 --   2. There are no duplicate primary keys
 --   3. Critical columns aren't full of NULLs
 --   4. Foreign key relationships are intact
--- Every analyst project should start here.
+
 -- =====================================================================
 
 
