@@ -1,0 +1,24 @@
+# Raw data — too large for git, document how to get it instead
+data/raw/
+
+# Tableau working files
+*.twb
+*.twbx
+
+# Mac files
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
